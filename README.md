@@ -5,6 +5,7 @@ BookMyShow is a Java-based web application that provides an online platform for 
 BookMyShow simplifies the process of booking movie tickets by providing users with an intuitive interface to search for movies, view showtimes, select seats, and purchase tickets online. It also offers features for theater owners to manage their movie listings, show schedules, and seating arrangements.
 
 **Project Structure**
+
 The project follows a modular structure, with each module responsible for a specific aspect of the application:
 
 
