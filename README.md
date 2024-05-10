@@ -135,71 +135,120 @@ UserTransformer.java: Converts user entities to DTOs and vice versa.
 
 **Movie Controller**
 
-Add Movie:
+**Add Movie:**
+
 Endpoint: POST /movie/add
+
 Description: Add a new movie to the system.
+
 Request Body: MovieRequestDTO
+
 Response: Success message or error message
 
 **Show Controller**
 
-Add Show:
+**Add Show:**
+
 Endpoint: POST /show/add
+
 Description: Add a new show to the system.
+
 Request Body: ShowRequestDTO
+
 Response: Success message or error message
-Associate Seats with Show:
+
+**Associate Seats with Show:**
+
 Endpoint: POST /show/associateSeats
+
 Description: Associate seats with a specific show.
+
 Request Body: ShowSeatsRequestDTO
+
 Response: Success message or error message
-Get Most Recommended Movie Show:
+
+**Get Most Recommended Movie Show:**
+
 Endpoint: GET /show/getMostRecommendedMovieShow
+
 Description: Retrieve the most recommended movie show.
+
 Request Parameters: ShowRequestDTO
+
 Response: Movie name
 
 **Theater Controller**
 
-Add Theater:
+**Add Theater:**
+
 Endpoint: POST /theater/add
+
 Description: Add a new theater to the system.
+
 Request Body: TheaterRequestDTO
+
 Response: Success message or error message
-Add Theater Seats:
+
+**Add Theater Seats:**
+
 Endpoint: POST /theater/addTheaterSeats
+
 Description: Add seats to a specific theater.
+
 Request Body: TheaterSeatsRequestDTO
+
 Response: Success message or error message
 
 **Ticket Controller**
 
-Book Ticket:
+**Book Ticket:**
+
 Endpoint: POST /ticket/bookTicket
+
 Description: Book a ticket for a show.
+
 Request Body: TicketRequestDTO
+
 Response: TicketResponseDTO
-Cancel Ticket:
+
+**Cancel Ticket:**
+
 Endpoint: DELETE /ticket/cancelTicket/{ticketId}
+
 Description: Cancel a booked ticket.
+
 Path Variable: Ticket ID
+
 Response: Success message or error message
 
 **User Controller**
 
-Add User:
+**Add User:**
+
 Endpoint: POST /user/add
+
 Description: Add a new user to the system.
+
 Request Body: UserRequestDTO
+
 Response: Success message or error message
+
 Get Oldest User:
+
 Endpoint: GET /user/getOldestUser
+
 Description: Retrieve the oldest user in the system.
+
 Response: UserResponseDTO
-Find All Users Greater Than Age:
+
+**Find All Users Greater Than Age:**
+
 Endpoint: GET /user/findAllUsersGreaterThanAge
+
 Description: Retrieve all users greater than a specified age.
+
 Request Parameter: age
+
 Response: List of users or error message
 
 
